@@ -1,0 +1,40 @@
+body{
+    font-family:Arial, sans-serif;
+    display:flex;
+    justify-content:center;
+    padding:60px;
+    background-color:blueviolet
+    
+
+}
+.form-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+h2 {
+    text-align: center;
+}
+
+form input, form button {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.valid {
+    border-color: green !important;
+}
+
+.invalid {
+    border-color: red !important;
+}
+button:hover {
+    background: Green;
+}
+#terms{
+    width: 10%;
+}
